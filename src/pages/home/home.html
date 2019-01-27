@@ -1,14 +1,423 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+  <ion-navbar> <ion-title> Lorem Ipsum Dolor </ion-title> </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-slides pager="false">
+    <ion-slide>
+      <h1 class="title" (click)="slideTo(1)">Lorem Ipsum Dolor</h1>
+      <img
+        src="http://lorempixel.com/output/fashion-h-c-300-600-8.jpg"
+        alt="cover"
+      />
+    </ion-slide>
+    <ion-slide>
+      <h1>Table of Contents</h1>
+      <hr />
+      <ul class="toc">
+        <li (click)="slideTo(2)">Chapter 1</li>
+        <br />
+        <li (click)="slideTo(6)">Chapter 2</li>
+        <br />
+        <li (click)="slideTo(10)">Chapter 3</li>
+        <br />
+        <li (click)="slideTo(14)">Chapter 4</li>
+      </ul>
+    </ion-slide>
+    <ion-slide>
+      <h1>Chapter 1</h1>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        luctus, orci vitae vehicula finibus, purus tellus efficitur quam, vel
+        ullamcorper ex quam vitae lectus. Duis pharetra enim non blandit rutrum.
+        Curabitur a placerat neque. Fusce congue, arcu eget sagittis malesuada,
+        neque lectus vestibulum felis, sit amet mollis leo urna commodo tortor.
+        Vivamus interdum, lectus eu pharetra lacinia, sem nisl pretium lectus,
+        vel congue ligula sem aliquet nibh. Integer sit amet cursus risus, vitae
+        ornare lorem. In efficitur vitae nibh eu volutpat. Donec bibendum tempor
+        est vel semper. Interdum et malesuada fames ac ante ipsum primis in
+        faucibus. Vestibulum vestibulum arcu eros, in sodales nunc ornare et. In
+        a augue interdum, ultricies mi vel, euismod dui. Fusce neque dui,
+        sollicitudin laoreet libero sed, imperdiet gravida est. Cras lacinia ac
+        ex nec sollicitudin.
+      </p>
+      <p>
+        Proin enim ipsum, bibendum sit amet tincidunt a, blandit in metus.
+        Maecenas blandit, tellus eget scelerisque maximus, neque odio mattis
+        eros, eget vestibulum sem enim eget sapien. Integer ut malesuada orci,
+        vitae hendrerit nunc. Vivamus nec feugiat magna. In et dignissim
+      </p>
+      <p class="pagenumber">1</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        orci. Etiam facilisis tempor dolor sed ornare. Sed consectetur blandit
+        sagittis. Sed molestie fringilla nibh. Vivamus mattis, purus eu maximus
+        mattis, velit justo posuere nulla, a dictum lorem dolor id dui. Aliquam
+        varius sem eu enim ullamcorper ullamcorper.
+      </p>
+      <p>
+        Donec libero ligula, tristique sit amet pellentesque non, tempus at
+        urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+        dictum leo sapien, a aliquam erat finibus ut. Duis in pulvinar felis.
+        Vivamus tempor feugiat gravida. Sed sit amet eleifend augue. Ut
+        sollicitudin varius finibus.
+      </p>
+      <p>
+        In justo enim, rhoncus sed enim venenatis, malesuada pulvinar dui. Sed
+        eu sem ligula. Phasellus fringilla sem massa, quis gravida libero
+        facilisis ut. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Donec vel diam vitae elit faucibus
+        laoreet a a enim. Morbi vel elit ultricies, efficitur lorem id, egestas
+        turpis. Sed et maximus mi. Sed bibendum tincidunt purus in semper.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Sed nec pulvinar urna, sed vulputate urna. Ut
+        scelerisque hendrerit tempor. Phasellus finibus varius metus quis
+        interdum. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas.
+      </p>
+      <p class="pagenumber">2</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        Phasellus rhoncus diam id nunc facilisis, in pulvinar arcu commodo.
+        Proin quis accumsan nisi. Nullam at laoreet felis. Aliquam eget libero
+        rutrum, mattis magna ac, hendrerit ex. Integer aliquam nec lectus a
+        luctus. Curabitur malesuada convallis nisl id pellentesque. Ut a ligula
+        semper, vestibulum dolor ut, tempus turpis. Maecenas a tempus tortor,
+        vitae elementum mi.
+      </p>
+      <p>
+        Curabitur vitae congue urna, non cursus enim. Donec luctus erat quis
+        ultrices tristique. Vivamus vitae ligula quam. Nullam gravida, est sed
+        bibendum accumsan, neque nulla porttitor sem, at interdum sem sem id
+        erat. Nullam eget turpis arcu. Sed vel orci non elit volutpat tincidunt
+        eu non ex. Fusce sed commodo felis, tempor consectetur est. Duis
+        hendrerit nibh libero, non sollicitudin lacus porttitor id. Mauris nunc
+        metus, iaculis non interdum eget, dignissim pellentesque lorem.
+        Curabitur vitae nunc tortor. Praesent varius purus risus, quis facilisis
+        quam volutpat id. Aliquam id cursus orci. Nam vitae elit tincidunt quam
+        rutrum efficitur eu quis elit.
+      </p>
+      <p>
+        Nullam mattis faucibus facilisis. Cras luctus scelerisque venenatis. Nam
+        eu nisi in magna euismod molestie. Donec et felis nulla. Nunc in elit id
+        felis pellentesque rhoncus. Nulla facilisi. Donec efficitur rutrum felis
+        at egestas. Phasellus elit lacus, viverra in dapibus eget, iaculis in
+        lorem. Curabitur sit amet felis placerat, aliquet nisl molestie,
+        sagittis magna. Pellentesque a dui finibus, facilisis risus dapibus,
+        molestie
+      </p>
+      <p class="pagenumber">3</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        enim. Sed tempus ex vitae nisi fermentum, nec efficitur metus
+        condimentum. Maecenas vel massa tincidunt, accumsan elit laoreet,
+        posuere tellus. Pellentesque egestas elementum interdum.
+      </p>
+      <img src="http://lorempixel.com/output/nightlife-q-g-300-150-5.jpg" />
+      <p>
+        Sed venenatis rhoncus libero, at mattis sem rhoncus ut. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis
+        egestas. Vestibulum eu rhoncus orci. Cras dapibus ornare mi, non mollis
+        libero varius id. Donec urna velit, eleifend et nibh sed, venenatis
+        feugiat tortor. Proin maximus lacus turpis, sed bibendum sem mattis non.
+        Aenean gravida lacinia bibendum. Quisque eu posuere sapien, id ultricies
+        nunc. Suspendisse rhoncus diam eget venenatis pharetra. Donec id commodo
+        turpis.
+      </p>
+      <p class="pagenumber">4</p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Chapter 2</h1>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a lectus
+        at nisl bibendum viverra. Integer arcu nulla, pretium eget elit at,
+        laoreet posuere augue. Aenean eget molestie eros. In hac habitasse
+        platea dictumst. Maecenas varius risus urna, sit amet gravida libero
+        vestibulum a. Morbi libero eros, mattis sed scelerisque sed, iaculis id
+        felis. Praesent ut interdum urna.
+      </p>
+      <p>
+        Etiam varius at arcu eget varius. Aliquam ut dictum diam, nec ultrices
+        mauris. Pellentesque urna nisl, tincidunt vel ex at, lacinia fringilla
+        ipsum. Suspendisse potenti. Sed vitae dapibus neque. Aenean congue
+        sapien a aliquam consectetur. Pellentesque ac quam a velit placerat
+        hendrerit sed quis ipsum. Nullam eu justo non justo commodo sagittis.
+        Integer mollis commodo mattis. Integer commodo venenatis ipsum facilisis
+        scelerisque. Ut ac neque quis nulla sagittis tempus condimentum et
+        lorem. In sit amet molestie arcu. Praesent eget volutpat massa. Duis
+        eget
+      </p>
+      <p class="pagenumber">5</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        porttitor tellus. Nunc erat nisl, fermentum eget mi ac, mattis congue
+        tellus. Donec accumsan dolor id sapien scelerisque, luctus euismod est
+        luctus.
+      </p>
+      <p>
+        Fusce at auctor felis. Vivamus ut purus a sapien placerat porttitor.
+        Aenean sodales nunc a diam molestie fringilla eu vel turpis. Cras sit
+        amet accumsan metus, sed dignissim lorem. Etiam vestibulum, velit ut
+        tincidunt tristique, justo enim ornare ipsum, id elementum mi enim id
+        dolor. Donec ornare sagittis enim id pulvinar. Nam a nulla ex. Phasellus
+        ultricies, libero a laoreet pellentesque, orci augue mattis lectus, sit
+        amet molestie diam nisi eu nulla. Mauris maximus scelerisque tempus. In
+        euismod arcu nec urna venenatis feugiat. Etiam blandit nulla facilisis
+        volutpat fringilla. Integer accumsan, eros sed suscipit placerat, sem
+        tortor auctor nisi, eu tincidunt ligula diam eget nulla. Integer ac
+        venenatis nisl, vel fermentum turpis. Aliquam nec augue vel massa
+        consectetur elementum. Nam nibh velit, blandit lacinia feugiat in,
+        condimentum at nunc.
+      </p>
+      <p>
+        Proin luctus sit amet elit quis pharetra. Curabitur dignissim, ligula a
+        mollis iaculis, nulla libero lobortis neque, ut
+      </p>
+      <p class="pagenumber">6</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        gravida erat velit gravida metus. Morbi condimentum purus vel nulla
+        facilisis commodo. Fusce ullamcorper tortor vitae metus rhoncus, a
+        pretium urna congue. Suspendisse convallis diam sagittis finibus
+        ullamcorper. Nulla facilisi. Duis aliquam massa sapien, et aliquet urna
+        euismod quis. Donec id ligula molestie, commodo diam eu, pretium lorem.
+        Aenean blandit, nunc quis accumsan tempus, nisl lorem molestie urna, nec
+        auctor sem sem id ipsum. Vivamus congue risus a orci feugiat tincidunt.
+        Nulla sed est lorem. Vivamus ac libero sit amet libero luctus lobortis
+        quis eget felis. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos. Aenean dapibus turpis vel
+        feugiat dictum. Praesent ex mi, aliquet vitae sem id, feugiat tincidunt
+        urna. Sed leo metus, consectetur ut tellus vitae, accumsan rutrum massa.
+      </p>
+      <p>
+        Nam quis mauris faucibus, interdum lectus sed, condimentum libero. Donec
+        tristique iaculis mi, at condimentum turpis hendrerit eget. Aenean
+        efficitur arcu ac augue sagittis elementum. Aenean commodo dui vel
+        sapien sodales viverra. Aenean lacinia nisi et bibendum gravida. Morbi
+        ut lacus et leo laoreet pellentesque quis ut est. Donec laoreet rhoncus
+        ligula eu tincidunt. Phasellus malesuada urna nibh, nec semper enim
+        gravida id. Suspendisse vel
+      </p>
+      <p class="pagenumber">7</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        eros nunc. Aenean pellentesque, ex cursus scelerisque luctus, mi libero
+        commodo enim, nec mattis leo sem id ligula. Etiam sit amet purus
+        posuere, cursus quam ut, hendrerit velit. Suspendisse sed congue lacus.
+      </p>
+      <p>
+        Pellentesque porttitor consequat est, non gravida diam vulputate ut. Sed
+        ex libero, pulvinar et quam eget, rhoncus egestas enim. Quisque in eros
+        libero. Aenean venenatis, nulla in viverra placerat, lacus mauris
+        accumsan diam, eget laoreet elit quam sit amet massa. Class aptent
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Proin nec urna at justo tristique pulvinar eu vitae neque.
+        Nam eleifend pretium quam nec posuere.
+      </p>
+      <p>
+        Donec sed rutrum risus. Maecenas mauris turpis, tincidunt at ante eu,
+        congue tristique velit. Duis pellentesque congue enim id commodo. Donec
+        sapien velit, condimentum non eleifend in, congue quis tortor. Nulla
+        quis finibus quam. In finibus egestas nibh at tristique. Maecenas ligula
+        tellus, dapibus elementum mi vitae, luctus commodo massa. Nulla
+        malesuada nunc id justo condimentum gravida. Phasellus faucibus vitae
+        lorem non mollis. Sed felis
+      </p>
+      <p class="pagenumber">8</p>
+    </ion-slide>
+    <ion-slide>
+      <p>massa, tincidunt vel nibh et, volutpat pretium massa.</p>
+      <p>
+        Aliquam ipsum dolor, bibendum quis dui a, auctor feugiat magna. Praesent
+        tincidunt, purus a pretium faucibus, ipsum nunc dictum ligula, a
+        condimentum nisi odio dictum felis. Nunc vel pulvinar est. Phasellus a
+        laoreet nisl, in tincidunt metus. Mauris neque turpis, semper et nulla
+        a, pretium mattis sem. Praesent pulvinar nisl diam, vel posuere purus
+        suscipit eu. Nam tincidunt ullamcorper venenatis. Donec non efficitur
+        sapien. Duis tincidunt aliquam lacinia. Nulla id eros est. Sed a arcu
+        pretium, ullamcorper nisi lacinia, egestas leo. Pellentesque condimentum
+        erat vitae dapibus dictum. Mauris efficitur tellus nisl, vel dapibus
+        turpis suscipit in. Aliquam consectetur efficitur nunc pretium accumsan.
+        Proin tincidunt efficitur urna, fermentum aliquet lacus dapibus sodales.
+        Fusce mattis imperdiet urna, et accumsan lacus ornare id.
+      </p>
+      <img src="http://lorempixel.com/output/city-q-g-300-150-4.jpg" />
+      <p class="pagenumber">9</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        Etiam scelerisque mollis mauris, gravida elementum leo pharetra non. Ut
+        consectetur lacus nisi, eget dictum arcu euismod id. Suspendisse nec
+        aliquet diam. Phasellus sodales sit amet massa iaculis consectetur.
+        Fusce sit amet sodales urna. Vivamus et dui viverra, dignissim lectus a,
+        eleifend nisi. Mauris placerat elit sed fringilla imperdiet. Nullam
+        congue iaculis libero, vel consequat tellus hendrerit nec. Suspendisse
+        facilisis ipsum vel ante ullamcorper maximus feugiat nec urna. Donec
+        quis libero ipsum. Praesent hendrerit convallis sollicitudin. Phasellus
+        posuere id libero id finibus.
+      </p>
+      <p class="pagenumber">10</p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Chapter 3</h1>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum
+        nibh eget purus congue mollis. Interdum et malesuada fames ac ante ipsum
+        primis in faucibus. Cras non orci ultricies, suscipit nisi eu, pulvinar
+        felis. Mauris bibendum convallis sagittis. Sed vestibulum sit amet nulla
+        et posuere. Sed fringilla tempor vulputate. Praesent aliquam at eros vel
+        aliquam. Morbi maximus interdum massa, id fermentum ex aliquet non.
+        Donec rutrum tempor lacus. Suspendisse feugiat dolor vel massa malesuada
+        lacinia. Sed turpis tellus, laoreet vitae tempor a, lobortis ac libero.
+        Quisque a justo et arcu hendrerit eleifend. Nulla laoreet urna eget
+        finibus consequat. Donec risus dui, mollis vel suscipit imperdiet,
+        faucibus eu eros. Cras vel posuere sapien.
+      </p>
+      <p>
+        Integer eu odio fermentum, auctor ipsum ac, semper neque. Quisque
+        venenatis nulla magna, efficitur lobortis ante cursus non. Ut congue
+        felis quis pretium pellentesque. Morbi egestas quis quam in mollis.
+        Proin euismod
+      </p>
+      <p class="pagenumber">11</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        nunc a ipsum consequat dapibus. Sed volutpat, nulla eu suscipit viverra,
+        erat justo fringilla enim, sed ornare nulla lectus in nibh. Fusce eu mi
+        porta libero cursus rhoncus. Sed tristique ipsum nisl, quis gravida
+        metus sodales a. Quisque sed quam laoreet, tristique enim sed, maximus
+        ligula. Mauris auctor ac massa quis tristique. In ornare dictum leo
+        blandit porta. Vestibulum ullamcorper sed nibh vitae blandit. Proin sed
+        tempus diam, tempor consequat enim.
+      </p>
+      <img src="http://lorempixel.com/output/city-q-g-300-150-8.jpg" />
+      <p>
+        Donec eget condimentum tortor, in viverra sapien. Aliquam efficitur ut
+        elit ac egestas. Vivamus mattis sem id ex dignissim euismod. Curabitur
+        et est convallis, malesuada ante id, tempus enim. Morbi a maximus lorem.
+        Proin ullamcorper, est a sagittis imperdiet, ipsum ante consequat erat,
+        sed sollicitudin odio odio eu enim. Pellentesque tempor nunc non odio
+        congue, eu interdum lectus mattis. Proin sit amet quam molestie,
+        vestibulum nulla vitae, maximus neque. Vivamus vel ultricies lectus.
+        Duis dictum suscipit magna at varius. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+      <p class="pagenumber">12</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        Mauris dui ex, ornare ac pellentesque nec, tempus non enim. Vestibulum
+        tincidunt convallis risus, et suscipit purus ultricies quis. Morbi at
+        arcu a mauris molestie elementum. Curabitur fringilla egestas quam, ac
+        pulvinar massa aliquet sed. Etiam nisl dui, iaculis quis sagittis nec,
+        posuere ac felis. Nulla bibendum suscipit dolor condimentum interdum.
+        Nulla urna massa, tincidunt ut risus id, interdum interdum turpis. Proin
+        diam libero, pulvinar quis turpis quis, pretium convallis nibh.
+        Pellentesque mauris orci, vehicula eget urna at, facilisis semper ante.
+        Nulla facilisi. Etiam pretium magna dolor, vitae molestie diam eleifend
+        vitae. Etiam pulvinar ex nec nulla pretium malesuada sit amet in urna.
+      </p>
+      <p>
+        Mauris quis turpis sem. Morbi sodales velit quis velit facilisis congue.
+        Morbi euismod lorem eu maximus blandit. Sed id tellus lacus. Nam eget
+        est nibh. Donec mattis ullamcorper ligula, quis vestibulum nulla
+        vestibulum eget. Praesent hendrerit justo quis facilisis pharetra.
+      </p>
+      <p>
+        Aliquam ultrices mauris ac dictum fringilla. Morbi aliquet efficitur
+        eros quis vestibulum. Nulla eu malesuada arcu,
+      </p>
+      <p class="pagenumber">13</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        sed rutrum leo. Etiam porta consectetur ante, dapibus porta nibh
+        fermentum in. Donec ipsum risus, pulvinar id neque at, lobortis
+        vestibulum tellus. Cras commodo ante vitae cursus bibendum. Proin ac
+        sodales nulla. Suspendisse facilisis quam ut nunc egestas, eu finibus
+        sem semper. Vestibulum quam elit, dictum vel malesuada quis, consequat
+        vitae arcu. Duis non diam eget nisi aliquet ullamcorper quis non ante.
+        Mauris viverra iaculis risus quis posuere. Pellentesque id tempor mi.
+        Nunc quis tempus ex, ut accumsan lacus. Nam fermentum, est in finibus
+        ultricies, nisi nibh pharetra odio, eget iaculis nisl quam ut dolor.
+        Vestibulum a eros neque. Nullam malesuada felis quis erat congue
+        rhoncus.
+      </p>
+      <p>
+        Proin vitae libero in ante ultricies sollicitudin. Vivamus posuere
+        cursus ipsum ultrices interdum. Nam egestas sed metus eget bibendum.
+        Donec nec venenatis mauris. Nullam semper massa ut neque rhoncus
+        sodales. Sed a nunc nulla. Phasellus rhoncus sollicitudin metus, a
+        rhoncus urna varius in.
+      </p>
+      <p class="pagenumber">14</p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Chapter 4</h1>
+      <hr />
+      <img src="http://lorempixel.com/output/nature-q-g-300-150-8.jpg" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet
+        auctor dui, eget luctus enim. Mauris cursus, sem vel facilisis
+        ultricies, ante urna ullamcorper mi, vel molestie enim tortor sit amet
+        urna. Proin congue magna ullamcorper nisi consequat congue. Curabitur
+        vestibulum quis metus in dignissim. Vivamus sapien lorem, auctor sed
+        urna id, lobortis bibendum lacus. Sed ut lectus eget dolor venenatis
+        eleifend. Nunc porttitor tellus convallis massa ornare, condimentum
+        euismod mauris fermentum. Integer elementum nisi quis tortor rhoncus,
+        viverra
+      </p>
+      <p class="pagenumber">15</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        cursus risus vehicula. Pellentesque id augue vitae enim feugiat
+        suscipit. Nam suscipit porttitor purus, quis varius leo convallis ut.
+        Duis et sapien eu quam posuere mattis. Nam id arcu nec nisl tempus
+        sollicitudin in non nibh. Nulla facilisi. Quisque iaculis sapien erat,
+        id feugiat enim finibus eu.
+      </p>
+      <p>
+        Aenean magna nulla, sollicitudin cursus mi id, venenatis vestibulum
+        dolor. Sed turpis dolor, accumsan euismod iaculis at, interdum eget
+        libero. Mauris id ipsum quis dolor elementum hendrerit. Donec feugiat
+        velit eu consequat aliquet. Integer semper, magna eget ornare sagittis,
+        massa dolor lacinia lectus, ut consequat leo urna ac metus. Pellentesque
+        ultrices condimentum lectus sed aliquet. Donec quis molestie erat, ut
+        egestas sapien.
+      </p>
+      <p>
+        Proin sed odio nec sapien convallis facilisis at at neque. Nullam et
+        lacus eget arcu placerat laoreet quis eget ligula. Duis iaculis a massa
+        sit amet dignissim. Donec ut sapien in enim consequat pellentesque ac
+        sed orci. Phasellus euismod dignissim est vitae tincidunt. Maecenas
+        tristique tellus nunc, at rhoncus risus convallis auctor. Nam vel massa
+        vitae elit varius tempor tincidunt sit amet lectus. Sed imperdiet
+        elementum libero in euismod. Nam laoreet nunc sodales lectus lacinia, a
+        tincidunt enim eleifend. Vestibulum ultricies, dui sit amet pharetra
+        scelerisque, orci
+      </p>
+      <p class="pagenumber">16</p>
+    </ion-slide>
+    <ion-slide>
+      <p>
+        mi maximus metus, vestibulum congue nisl justo laoreet lectus. Donec
+        vitae pulvinar ligula, vel pretium ex. Mauris at purus leo. Ut ornare
+        elit efficitur nibh euismod, quis dictum tortor tempor. Suspendisse
+        metus mauris, pellentesque ut nibh id, congue tincidunt risus. Mauris
+        tempus iaculis nulla, id commodo dui gravida et.
+      </p>
+      <p class="pagenumber">17</p>
+    </ion-slide>
+  </ion-slides>
 </ion-content>

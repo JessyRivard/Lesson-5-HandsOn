@@ -1,3 +1,21 @@
-page-home {
-
+ion-title {
+    text-align : center
+}
+.pagenumber {
+    position: absolute;
+    bottom: 30px;
+    width:100%;
+    text-align: center;
+    left: 0;
+}
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left
+}
+.toc {
+    list-style-type: none;
+}
+#title {
+    font-size: 1.5em !important;
 }
