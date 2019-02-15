@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, Slides } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,10 +7,18 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  @ViewChild(Slides) slides: Slides;
+
+  slideOpts = {
+    effect: 'slide'
+  }
+
   constructor(public navCtrl: NavController) {
 
   }
 
-
+  goTo(slide, index) {
+    this.slides.slideTo(index, 2000)
+  }
   
 }

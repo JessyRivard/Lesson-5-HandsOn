@@ -1,4 +1,4 @@
-#Sun Jan 27 01:20:45 EST 2019
+#Fri Feb 15 13:30:00 EST 2019
 base.0=/Users/jessyrivard/Bethel Tech/MyIonicApps/PageTurner/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
